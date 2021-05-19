@@ -1,6 +1,4 @@
-
 local TweenService = game:GetService('TweenService')
-
 
 spawn(function()
     local debounce = false
