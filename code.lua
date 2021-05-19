@@ -172,7 +172,7 @@ misc:Button("Robeats", function()
     loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoHacks/RoBeats-CS/main/Main.lua"))();'))()
 end)
 --Supported games: Lumber Tycoon 2
-misc:Button("Bark Gui (ONLY EXECUTE ON LT)", function()
+misc:Button("Bark", function()
      loadstring(game:HttpGetAsync'https://cdn.applebee1558.com/bark/bark.lua')('8.4 beta released :))')
 end)
 --Supported games: Lumber Tycoon 2
