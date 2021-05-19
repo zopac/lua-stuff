@@ -178,6 +178,7 @@ end)
 misc:Button("SkoopX", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/SkoopX_Updated.lua", true))()
 end)
+--Supported games: Dungeon Quest
 misc:Button("Dungeon Quest Coin Collect", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/dungeon%20quest%20coins.lua", true))()
 end)
