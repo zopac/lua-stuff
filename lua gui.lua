@@ -220,7 +220,7 @@ local function initLibrary()
                         Position = UDim2.new(0, 10, 0.5, -10);
                         Size = UDim2.new(0, 70, 0, 24);
                         TextColor3 = Color3.fromRGB(255, 255, 255);
-                        Text = "Eu's AOT UI";
+                        Text = "gui tingy";
                         Font = "GothamSemibold";
                         TextSize = 12;
                         library:Create("UIGradient", {
