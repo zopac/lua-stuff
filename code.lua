@@ -155,17 +155,32 @@ local misc = library:CreateSection("Scripts");
 misc:Button("Infinite Yield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
---Supported games: Phantom Forces, Shindo Life 2, Vesteria, Ragdoll Engine, Ro-Ghoul, Project Lazarus
+--Supported games: Phantom Forces, Shindo Life 2, Vesteria, Ragdoll Engine, Ro-Ghoul, Project: Lazarus
 misc:Button("Bruh Hub", function()
     loadstring(game:HttpGet('https://bruh.keshhub.com/.lua'))()
+end)
+--Supported games: literally the name its legend of the bone sword
+misc:Button("LOTBS", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/lotbs%20gui.lua", true))()
+end)
+--Supported games: Phantom Forces, Bloxburg, Arsenal, Bad Business, Strucid, Project: Lazarus, Jailbreak, probably forgot a few but i dont give a shit it works on fucking every fps game ever
+misc:Button("Divinity Hub", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/DivinityHub_Cracked.lua", true))()
 end)
 --Supported games: Robeats, Robeats Community Server, basically any game thats similar to robeats
 misc:Button("Robeats", function()
     loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoHacks/RoBeats-CS/main/Main.lua"))();'))()
 end)
---Supported games: Lumber Tycoon
+--Supported games: Lumber Tycoon 2
 misc:Button("Bark Gui (ONLY EXECUTE ON LT)", function()
      loadstring(game:HttpGetAsync'https://cdn.applebee1558.com/bark/bark.lua')('8.4 beta released :))')
+end)
+--Supported games: Lumber Tycoon 2
+misc:Button("SkoopX", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/SkoopX_Updated.lua", true))()
+end)
+misc:Button("Dungeon Quest Coin Collect", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/dungeon%20quest%20coins.lua", true))()
 end)
 --Supported games: Your Bizarre Adventure
 misc:Button("Kix Hub", function()
@@ -175,8 +190,13 @@ end)
 misc:Button("Rem Hub", function()
      loadstring(game:HttpGet("https://remcc.xyz/amogus.lua", true))()
 end)
+--Supported games: Your Bizarre Adventure
 misc:Button("YBA Gui", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/MidnightKittenCat/script-idk/main/yb2a.lua", true))()
+end)
+--Supported games: Vesteria
+misc:Button("Vesteria Pear Sell", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/vesteria%20pear%20sell.lua", true))()
 end)
 --Attack On Titan: Last Breath nape expander 
 local aot = library:CreateSection("AOT");
