@@ -172,7 +172,7 @@ misc:Button("Robeats", function()
     loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoHacks/RoBeats-CS/main/Main.lua"))();'))()
 end)
 --Supported games: Lumber Tycoon 2
-misc:Button("Bark", function()
+misc:Button("Bark Gui (ONLY EXECUTE ON LT)", function()
      loadstring(game:HttpGetAsync'https://cdn.applebee1558.com/bark/bark.lua')('8.4 beta released :))')
 end)
 --Supported games: Lumber Tycoon 2
@@ -198,51 +198,10 @@ end)
 misc:Button("Vesteria Pear Sell", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/vesteria%20pear%20sell.lua", true))()
 end)
---Attack On Titan: Last Breath nape expander 
-local aot = library:CreateSection("AOT");
-aot:Button("Enable", function()
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Loading..", Text = "aot nape expander"})
-wait(3)
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Nape Expander", Text = "created by zopac"})
-
-_G.Color =Color3.fromRGB(255,255,255)
-_G.NapeSize = 0
-_G.Transparency2 = 0.7
-
-while true do
-    wait(2)
-
-for i,v in pairs(game:GetService('Workspace').Titans:GetDescendants()) do 
-    if v.Name == ("Nape") then
-
-v.CanCollide = false
-v.Anchored = false
-v.Transparency = _G.Transparency2
-v.Material = "Neon"
-v.Color = _G.Color
-v.Size = Vector3.new(_G.NapeSize,_G.NapeSize,_G.NapeSize)
-end
-end
-end
+--Supported games: Attack On Titan: Last Breath
+misc:Button("AOT Last Breath Killaura", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/aotlbkillaura.lua", true))()
 end)
-
-aot:Label("Settings")
-
-aot:ColorPicker("Hitbox Color",Color3.fromRGB(255,255,255),function(color2)
-    while true do
-    wait(1)
-    _G.Color = (color2)
-    end
-end)
-
-aot:Slider("HitBox Size",{min = 0, max = 1000, precise = false}, function(slidervalue)
-     _G.NapeSize = (slidervalue)
-end)
-
-aot:Slider("Hitbox Opactiy", {min = 0.1, max = 1, precise = true}, function (slidervalue1)
-    _G.Transparency2 = (slidervalue1)
-end)
-
 library:Ready();
 
 --end
