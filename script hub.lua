@@ -1,1 +1,14 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/code.lua", true))()
+
+-- Bruh Hub: Phantom Forces, Shindo Life 2, Vesteria, Ragdoll Engine, Ro-Ghoul, Project: Lazarus
+-- LOTBS: Legend Of The Bone Sword
+-- Divinity Hub: Phantom Forces, Bloxburg, Arsenal, Bad Business, Strucid, Project: Lazarus, Jailbreak, probably forgot a few but i dont give a shit it works on fucking every fps game ever
+-- Robeats: Robeats, Robeats Community Server, basically any game thats similar to robeats
+-- Bark: Lumber Tycoon 2 
+-- SkoopX: Lumber Tycoon 2 
+-- Dungeon Quest Coin Collect: Dungeon Quest
+-- Kix Hub: Your Bizarre Adventure
+-- Rem Hub: Your Bizarre Adventure, King Piece
+-- YBA Gui: Your Bizarre Adventure
+-- Vesteria Pear Sell: Vesteria
+-- AOT Last Breath Killaura: Attack On Titan: Last Breath
