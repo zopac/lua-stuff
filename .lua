@@ -149,67 +149,90 @@
 -- MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWNKOkxdooooooolllllodddooloxOXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 -- MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWNK0kxdooolccccclodddoodOKNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/zopac/lua-stuff/main/lua%20gui.lua')))();
-local misc = library:CreateSection("Scripts");
+
+local scripts = library:CreateSection("Scripts");
+
 --admin script
-misc:Button("Infinite Yield", function()
+scripts:Button("Infinite Yield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
---Supported games: Phantom Forces, Shindo Life 2, Vesteria, Ragdoll Engine, Ro-Ghoul, Project: Lazarus
-misc:Button("Bruh Hub", function()
-    loadstring(game:HttpGet('https://bruh.keshhub.com/.lua'))()
-end)
+
 --Supported games: literally the name its legend of the bone sword
-misc:Button("LOTBS", function()
+scripts:Button("LOTBS", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/lotbs%20gui.lua", true))()
 end)
---Supported games: Phantom Forces, Bloxburg, Arsenal, Bad Business, Strucid, Project: Lazarus, Jailbreak, probably forgot a few but i dont give a shit it works on fucking every fps game ever
-misc:Button("Divinity Hub", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/DivinityHub_Cracked.lua", true))()
-end)
+
 --Supported games: Robeats, Robeats Community Server, basically any game thats similar to robeats
-misc:Button("Robeats", function()
+scripts:Button("Robeats", function()
     loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoHacks/RoBeats-CS/main/Main.lua"))();'))()
 end)
+
 --Supported games: Lumber Tycoon 2
-misc:Button("Bark", function()
+scripts:Button("Bark", function()
      loadstring(game:HttpGetAsync'https://cdn.applebee1558.com/bark/bark.lua')('8.4 beta released :))')
 end)
+
 --Supported games: Lumber Tycoon 2
-misc:Button("SkoopX", function()
+scripts:Button("SkoopX", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/SkoopX_Updated.lua", true))()
 end)
+
 --Supported games: Dungeon Quest
-misc:Button("Dungeon Quest Coin Collect", function()
+scripts:Button("Dungeon Quest Coin Collect", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/dungeon%20quest%20coins.lua", true))()
 end)
+
 --Supported games: Your Bizarre Adventure
-misc:Button("Kix Hub", function()
+scripts:Button("Kix Hub", function()
      loadstring(game:HttpGet("https://rasputin-bf.glitch.me/ybascript.lua", true))()
 end)
+
 --Supported games: Your Bizarre Adventure, King Piece
-misc:Button("Rem Hub", function()
+scripts:Button("Rem Hub", function()
      loadstring(game:HttpGet("https://remcc.xyz/amogus.lua", true))()
 end)
+
 --Supported games: Your Bizarre Adventure
-misc:Button("YBA Gui", function()
+scripts:Button("YBA Gui", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/MidnightKittenCat/script-idk/main/yb2a.lua", true))()
 end)
+
 --Supported games: Vesteria
-misc:Button("Vesteria Pear Sell", function()
+scripts:Button("Vesteria Pear Sell", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/vesteria%20pear%20sell.lua", true))()
 end)
+
 --Supported games: Attack On Titan: Last Breath
-misc:Button("AOT Last Breath Killaura", function()
+scripts:Button("AOT Last Breath Killaura", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/aotlbkillaura.lua", true))()
 end)
+
 --Supported games: all of them
-misc:Button("Nullware", function()
+scripts:Button("Nullware", function()
      loadstring(game:HttpGet("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/37eef2120d509b37b31fa73944ab2361/raw/kT2fVEFnzDfCRXAP"))()
 end)
+
 --Supported games: its not a "script" for games it just does something
-misc:Button("NetBypass", function()
+scripts:Button("NetBypass", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/NetBypass.lua"))()
 end)
-library:Ready();
 
---end
+local hubs = library:CreateSection("Hubs");
+
+-- HUBS
+
+--Supported games: Phantom Forces, Bloxburg, Arsenal, Bad Business, Strucid, Project: Lazarus, Jailbreak, probably forgot a few but i dont give a shit it works on fucking every fps game ever
+hubs:Button("Divinity Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/DivinityHub_Cracked.lua", true))()
+end)
+--Supported games: just look at this https://github.com/SiLeNSwOrD/OwlHub/blob/master/Games.txt i cant be bothered to type all of them
+hubs:Button("OwlHub", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))(); 
+end)
+
+--Supported games: Phantom Forces, Shindo Life 2, Vesteria, Ragdoll Engine, Ro-Ghoul, Project: Lazarus
+hubs:Button("Bruh Hub", function()
+    loadstring(game:HttpGet('https://bruh.keshhub.com/.lua'))()
+end)
+
+library:Ready();
