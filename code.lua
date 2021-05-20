@@ -202,6 +202,14 @@ end)
 misc:Button("AOT Last Breath Killaura", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/aotlbkillaura.lua", true))()
 end)
+--Supported games: all of them
+misc:Button("Nullware", function()
+     loadstring(game:HttpGet("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/37eef2120d509b37b31fa73944ab2361/raw/kT2fVEFnzDfCRXAP"))()
+end)
+--Supported games: its not a "script" for games it just does something
+misc:Button("NetBypass", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/NetBypass.lua"))()
+end)
 library:Ready();
 
 --end
