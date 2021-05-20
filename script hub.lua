@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/code.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/.lua", true))()
 
 -- Bruh Hub: Phantom Forces, Shindo Life 2, Vesteria, Ragdoll Engine, Ro-Ghoul, Project: Lazarus
 -- LOTBS: Legend Of The Bone Sword
