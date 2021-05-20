@@ -12,3 +12,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/
 -- YBA Gui: Your Bizarre Adventure
 -- Vesteria Pear Sell: Vesteria
 -- AOT Last Breath Killaura: Attack On Titan: Last Breath
+-- Nullware: all of them its an animations script
+-- NetBypass: the yeah
