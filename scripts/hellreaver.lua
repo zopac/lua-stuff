@@ -1,5 +1,5 @@
 -- Globals
-Size = {X=100,Y=100,Z=100}
+Size = {X=2,Y=2,Z=1}
 Trans = 0
 Color = Color3.new(1,0,0)
 
@@ -17,7 +17,7 @@ window:AddSlider({text='Transparency',min=0,max=1,float=0.01,callback=function(a
 -- Size
 local sizeF = window:AddFolder("Size")
 for i,v in pairs(Size) do
-    sizeF:AddSlider({text=i,min=v,max=300,float=0.5,callback=function(a)Size[i]=a;end})
+    sizeF:AddSlider({text=i,min=v,max=30,float=0.5,callback=function(a)Size[i]=a;end})
 end
 library:Init()
 
