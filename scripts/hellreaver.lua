@@ -1,5 +1,5 @@
 -- Globals
-Size = {X=2,Y=2,Z=1}
+Size = {X=100,Y=100,Z=100}
 Trans = 0
 Color = Color3.new(1,0,0)
 
