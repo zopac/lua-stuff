@@ -217,6 +217,11 @@ scripts:Button("NetBypass", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/NetBypass.lua"))()
 end)
 
+--Supported games: Hellreaver Arena
+scripts:Button("HellReaver Roblox Quake", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Just-Egg-Salad/roblox-scripts/main/hellreaver%20hitbox",true))()
+end)
+
 local hubs = library:CreateSection("Hubs");
 
 -- HUBS
@@ -233,11 +238,6 @@ end)
 --Supported games: Phantom Forces, Shindo Life 2, Vesteria, Ragdoll Engine, Ro-Ghoul, Project: Lazarus
 hubs:Button("Bruh Hub", function()
     loadstring(game:HttpGet('https://bruh.keshhub.com/.lua'))()
-end)
-
---Supported games: Hellreaver Arena
-scripts:Button("HellReaver Roblox Quake", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Just-Egg-Salad/roblox-scripts/main/hellreaver%20hitbox",true))()
 end)
 
 
