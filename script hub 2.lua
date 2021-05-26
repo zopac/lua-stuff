@@ -5,7 +5,7 @@ window:Section("scripts")
 window:Search(Color3.fromRGB(255,0,255) --[[nil = Yellow]]) -- Ez searcher for if you have a lot of things
 
 
-window:Button("admin",function()
+window:Button("Admin",function()
     
    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
