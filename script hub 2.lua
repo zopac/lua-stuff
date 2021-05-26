@@ -43,7 +43,7 @@ window:Button("NetBypass",function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/zopac/lua-stuff/main/scripts/NetBypass.lua'))()
 end)
 window:Button("HellReaver Quake",function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/zopac/lua-stuff/main/scripts/hellreaver'))()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/zopac/lua-stuff/main/scripts/hellreaver.lua'))()
 end)
 
 

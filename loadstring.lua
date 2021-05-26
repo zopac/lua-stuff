@@ -14,6 +14,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/
 -- AOT Last Breath Killaura: Attack On Titan: Last Breath
 -- Nullware: all of them its an animations script
 -- NetBypass: the yeah
+-- HellReaver: its literally the name its just a script for hellreaver which is basically roblox doom
 
 --HUBS
 
