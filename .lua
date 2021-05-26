@@ -235,4 +235,10 @@ hubs:Button("Bruh Hub", function()
     loadstring(game:HttpGet('https://bruh.keshhub.com/.lua'))()
 end)
 
+--Supported games: Hellreaver Arena
+hubs:Button("Roblox Quake", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Just-Egg-Salad/roblox-scripts/main/hellreaver%20hitbox",true))()
+end)
+
+
 library:Ready();
