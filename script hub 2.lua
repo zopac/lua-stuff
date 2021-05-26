@@ -1,4 +1,4 @@
-local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/dirt",true))()
+local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/luagui2.lua",true))()
 local Table = {}
 local window = Lib:CreateWindow("amogus gui")
 window:Section("scripts")
