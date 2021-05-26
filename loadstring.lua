@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/script hub.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zopac/lua-stuff/main/script%20hub.lua", true))()
 
 --SCRIPTS
 
