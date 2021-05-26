@@ -236,7 +236,7 @@ hubs:Button("Bruh Hub", function()
 end)
 
 --Supported games: Hellreaver Arena
-hubs:Button("Roblox Quake", function()
+scripts:Button("HellReaver Roblox Quake", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Just-Egg-Salad/roblox-scripts/main/hellreaver%20hitbox",true))()
 end)
 
