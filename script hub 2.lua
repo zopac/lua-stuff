@@ -45,6 +45,9 @@ end)
 window:Button("HellReaver Quake",function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/zopac/lua-stuff/main/scripts/hellreaver.lua'))()
 end)
+window:Button("Notoriety",function()
+   loadstring(game:GetObjects("rbxassetid://4763830754")[1].Source)()
+end)
 
 
 window:Section("hubs")
